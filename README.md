@@ -6,9 +6,7 @@ Your challenge is to build out this thread-comments functionality as shown in UI
 
 
 ## Challenge design
-
-![Thread-comments](https://user-images.githubusercontent.com/87559461/233578150-8b5fcf7f-18f8-419b-811e-680659246a75.png)
-
+![Thread-comments_new](https://user-images.githubusercontent.com/97655102/233595409-93bec797-de36-4314-95e9-65850bfc40cd.png)
 
 ## JSON Data
 Make fake API using app/comments.json and perform crud with this json data.
