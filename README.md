@@ -11,7 +11,7 @@ Your challenge is to build out this thread-commenting functionality as shown in 
 
 
 ## JSON Data
-Make fake API using comments.json and perform crud with this json data.
+Make fake API using app/comments.json and perform crud with this json data.
 
 
 ## Json server
