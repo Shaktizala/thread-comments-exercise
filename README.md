@@ -1,8 +1,8 @@
-# thread-commenting 
+# Thread-comments
 
 ## The challenge
 
-Your challenge is to build out this thread-commenting functionality as shown in UI.
+Your challenge is to build out this thread-comments functionality as shown in UI.
 
 
 ## Challenge design
@@ -20,6 +20,6 @@ For fake API you can use [json server](https://github.com/typicode/json-server)
 ## Run locally
 ### Fork this repo and then clone
 ```
-git clone git@github.com:Improwised/thread-messaging.git
+git clone git@github.com:Improwised/thread-comments.git
 ```
 
