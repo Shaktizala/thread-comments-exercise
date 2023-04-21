@@ -7,10 +7,12 @@ Your challenge is to build out this thread-commenting functionality as shown in 
 
 ## Challenge design
 
+![Thread-comments](https://user-images.githubusercontent.com/87559461/233578150-8b5fcf7f-18f8-419b-811e-680659246a75.png)
 
 
 ## JSON Data
-Make fake API using above comments.json and perform crud with this json data.
+Make fake API using comments.json and perform crud with this json data.
+
 
 ## Json server
 For fake API you can use [json server](https://github.com/typicode/json-server)
