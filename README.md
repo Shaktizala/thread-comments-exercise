@@ -1,88 +1,23 @@
-# Management UI with Nuxt3
+# thread-commenting 
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## The challenge
 
-## Installation
+Your challenge is to build out this thread-commenting functionality as shown in UI.
 
-- Node.js - v16.10.0 or newer
 
-## Setup
+## Challenge design
 
-```bash
-# clone repo
-git clone git@github.com:Improwised/nuxt3-boilerplate.git
+
+
+## JSON Data
+Make fake API using above comments.json and perform crud with this json data.
+
+## Json server
+For fake API you can use [json server](https://github.com/typicode/json-server)
+
+## Run locally
+### Fork this repo and then clone
+```
+git clone git@github.com:Improwised/thread-messaging.git
 ```
 
-## Build Setup
-
-For UI everything is under /app/ folder, so go to /app/ folder.
-
-* Go to `/app/` folder. 
-
-* copy `.env.example` to `.env`. (skip if already done)
-
-## .env.example
-
-* copy `.env.example` to `.env`.
-```
-MODE=development
-BASE_URL=
-```
-* `MODE`: This will indicate application state.
-* `BASE_URL`: You can specify your application URL.
-
-* run following commands
-
-``` bash
-# Make sure to install the dependencies
-$ npm install 
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Included Packages
-
-- Bootstrap - for style
-- Pinia - for State management
-- Eslint - for on commit 
-- Prettier - for on commit
-- Vitest - for testcases
-- Husky - for pre-commit hooks
-- Commitlint - for github commit lint
-
-
-
-
-## Store - State Management
-
-This directory contains your Pinia Store files.
-
-for use pinia first define pinia in nuxt config file
-
-More information about the usage of this directory in [documentation]( https://pinia.vuejs.org/ssr/nuxt.html).
-
-* Go to `/app/store` folder, this folder includes,
-
-    * `actions`: Includes all the requests of project.
-    * `getters`: pinia allows us to define "getters" in the store. You can think of them as computed properties for stores.
-    *  `state`: Includes all the variable of the project.
-
-
-
-## Testcases
-This directory includes the test cases. *
-More information to write test cases you can visit this [documentation](https://vitest.dev/guide/)
-### for testcase run
-```
-npm run test
-```
-
-## Other Configuration file
-
-Please check husky folder/files,.eslintrc.js,.prettierrc,tsconfig.ts,vitest.config.ts,plugins folder/files
